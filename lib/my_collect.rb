@@ -1,3 +1,3 @@
 def my_collect(languages) 
-  languages.collect()
+  languages.collect {|lang|
 end
