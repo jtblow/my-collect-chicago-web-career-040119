@@ -1,4 +1,6 @@
-def my_collect(languages) 
-  languages.collect {|lang|lang.upcase}
+def my_collect(array) 
+  array.collect {|lang|lang.upcase}
+yield
+array.collect {|name|name.upcase}
 end
 
