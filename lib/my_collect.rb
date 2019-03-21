@@ -1,3 +1,3 @@
-def my_collect(languages) do |language|
- yield(languages.collect(language.upcase))
+def my_collect(languages) 
+  languages.collect()
 end
